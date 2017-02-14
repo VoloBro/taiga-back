@@ -561,6 +561,32 @@ MAX_PENDING_MEMBERSHIPS = 30 # Max number of unconfirmed memberships in a projec
 
 from .sr import *
 
+IMPORTERS = {
+    "github": {
+        "active": False,
+        "client_id": "",
+        "client_secret": "",
+    },
+    "trello": {
+        "active": False,
+        "api_key": "",
+        "secret_key": "",
+    },
+    "trello": {
+        "active": False,
+        "consumer_key": "",
+        "cert": "",
+        "pub_cert": "",
+    },
+    "asana": {
+        "active": False,
+        "callback_url": "",
+        "app_id": "",
+        "app_secret": "",
+    }
+}
+
+
 GITHUB_API_CLIENT_ID = ""
 GITHUB_API_CLIENT_SECRET = ""
 
